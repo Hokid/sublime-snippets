@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+${TM_CURRENT_LINE/^\s*[^\d\s]+[\s]*:[\s]*(.+)[\s]*;$/\n@include adjust-font-size-to\(($1)\);/g}
+]]></content>
+  <tabTrigger>-@ajfzt/</tabTrigger>
+  <scope>source.sass</scope>
+</snippet>

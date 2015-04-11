@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+${TM_CURRENT_LINE/^\s*([^\d]+)[\s]*:[\s]*(.+)[\s]*;$/\n@include rem\('($1)', ($2)\);/g}
+]]></content>
+  <tabTrigger>-@rem/</tabTrigger>
+  <scope>source.sass</scope>
+</snippet>
+
+
